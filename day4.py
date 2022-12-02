@@ -33,11 +33,11 @@ userChoice = int(input('Chose 0 to "rock", 1 to "paper", 2 to "scissors"\n'))
 if userChoice >= 3 or userChoice < 0:
   print("You typed an invalid number, you lose!")
 else:
-  #user choise logic
+  #user choice logic
   print("Player chose:")
   print(f"{handImages[userChoice]}")
 
-  #computer choise logic
+  #computer choice logic
   print("Computer chose:")
   computerChoice = random.randint(0, 2)
   print(f"{handImages[computerChoice]}")
