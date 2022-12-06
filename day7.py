@@ -1,4 +1,4 @@
-#link to game in replit: https://replit.com/@MatheusWillians/Day-7-Hangman-Final?v=1
+#link to game in replit: https://replit.com/@MatheusWillians/Day-7-Hangman-Final?v=1, you can always fork it
 #importing librarys
 import random
 from hangman_art import logo, stages
