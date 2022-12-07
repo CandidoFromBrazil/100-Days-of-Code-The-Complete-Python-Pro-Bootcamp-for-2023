@@ -6,7 +6,8 @@ from hangman_art import logo, stages
 from hangman_words import word_list
 #for this library to run, apply all the code on https://replit.com/, or just delete this line.
 from replit import clear
-
+#attempt to create a historic
+historic = []
 #random choose of a word
 chosen_word = random.choice(word_list)
 #variable to control the range(), instead of len() function
@@ -26,8 +27,10 @@ for _ in range(word_length):
 
 #while for re-validation over guess
 while not end_of_game:
-  #input for guess
+    #input for guess
     guess = input("Guess a letter: ").lower()
+    #historic logic
+    historic.append(guess)
     #clear function called from the replir library, must be delected with the library as well
     clear()
     #"no repeated guess"
@@ -45,19 +48,20 @@ while not end_of_game:
     if guess not in chosen_word:
 
         print(f"You guessed {guess}, that's not in the word. You lose a life.")
-        
+
         lives -= 1
         if lives == 0:
             end_of_game = True
-            print("You lose.")
-
+            print("\nYou lose.")
+            print(f"\nyour word was: {chosen_word}")
     #Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
 
     #Check if user has got all letters.
     if "_" not in display:
         end_of_game = True
-        print("You win.")
-
+        print("\nYou win.")
+        print(f"\nyour word was: {chosen_word}")
     #conveying the stages of our handman
     print(stages[lives])
+    print(f"\n\nYou letters historic is: {historic}")
