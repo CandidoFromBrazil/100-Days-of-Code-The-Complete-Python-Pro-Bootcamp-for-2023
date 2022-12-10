@@ -1,3 +1,8 @@
+#link to game in replit: https://replit.com/@MatheusWillians/Caesar-Cipher?v=1, you can always fork it
+#All the project and the inherent libraries are in the additional folder to be downloaded by you, is a folde named: day8.py.rar, enjoy
+
+#CAESAR CIPHER PROGRAM
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 #function responsable for the logical instance 
