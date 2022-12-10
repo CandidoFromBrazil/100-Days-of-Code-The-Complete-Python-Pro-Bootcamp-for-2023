@@ -1,6 +1,9 @@
 #link to game in replit: https://replit.com/@MatheusWillians/Day-7-Hangman-Final?v=1, you can always fork it
 #All the project and the inherent libraries are in the additional folder to be downloaded by you, is a folde named: day7.py.rar, enjoy
-#importing librarys
+#importing libraries
+
+#HANGMAN GAME
+
 import random
 from hangman_art import logo, stages
 from hangman_words import word_list
