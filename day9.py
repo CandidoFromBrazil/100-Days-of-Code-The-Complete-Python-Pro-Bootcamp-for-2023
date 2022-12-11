@@ -1,5 +1,5 @@
 #link to game in replit: https://replit.com/@MatheusWillians/Blind-Auction?v=1, you can always fork it
-#All the project and the inherent libraries are in the additional folder to be downloaded by you, is a folde named: day9.py.rar, enjoy it
+#All the project and the inherent libraries are in the additional folder to be downloaded by you, is a folde named: day9.py.zip, enjoy it
 
 #Blind Auction
 
