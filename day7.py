@@ -1,5 +1,5 @@
 #link to game in replit: https://replit.com/@MatheusWillians/Day-7-Hangman-Final?v=1, you can always fork it
-#All the project and the inherent libraries are in the additional folder to be downloaded by you, is a folde named: day7.py.rar, enjoy
+#All the project and the inherent libraries are in the additional folder to be downloaded by you, is a folde named: day7.py.rar, enjoy it
 #importing libraries
 
 #HANGMAN GAME
